@@ -27,4 +27,8 @@ public class productPage extends CommonFunctionsClass {
         cf.click(checkout);
     }
 
+    public void productSorting(){
+
+    }
+
 }
