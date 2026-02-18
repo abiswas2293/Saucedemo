@@ -7,7 +7,7 @@ public class productPage extends CommonFunctionsClass {
 
     public void sortingOption(){
         String selectSort="//select[@class='product_sort_container']";
-        cf.dropDown(selectSort,"Price(low to high )");
+        cf.dropDown(selectSort,"Price (low to high)");
 
     }
     public void productName(){
@@ -27,8 +27,8 @@ public class productPage extends CommonFunctionsClass {
         cf.click(checkout);
     }
 
-    public void productSorting(){
+   // public void productSorting(){
 
-    }
+   // }
 
 }

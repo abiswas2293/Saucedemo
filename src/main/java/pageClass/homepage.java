@@ -5,7 +5,7 @@ import utility.CommonFunctionsClass;
 public class homepage extends CommonFunctionsClass {
     CommonFunctionsClass cf=new CommonFunctionsClass();
     public void userId(){
-        String user="//input[@id='user-name']";
+        String user="//input[@name='user-name']";
         cf.typeText(user,"standard_user");
     }
 
