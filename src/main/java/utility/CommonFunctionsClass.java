@@ -11,8 +11,12 @@ import java.util.List;
 
 import static utility.BaseClass.driver;
 
-public class CommonFunctionsClass {
+public class CommonFunctionsClass{
     Actions action;
+
+    // Explicit no-arg constructor so code that expects it compiles cleanly
+    public CommonFunctionsClass() {
+    }
 
     public void click(String locator) {
         driver.findElement(By.xpath(locator)).click();
